@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="todo.css">
+    <script src="app.js"></script>
+
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div id="f1">
+        <header class="hed">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h1>ToDo List</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <h2>Add Items</h2>
+        <div class="container1">
+            <form id="addForm">
+                <div class="row">
+                    <div class="row1">
+                        <input type="text" onkeyup="toggleButton(this, 'submit')" class="form-control" id="item">
+                        <input type="submit" class="btn btn-dark" id="submit" value="Submit" disabled>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div>
+            <form id="addForm">
+                <h3 class="he1">Tasks</h3>
+                <div id="ed">
+                    <ul class="list-group" id="items"></ul>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html
